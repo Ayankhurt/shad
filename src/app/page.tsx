@@ -1,9 +1,9 @@
-import Image from "next/image";
+import AccordPage from "./accord/page";
 
 export default function Home() {
   return (
-      <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-        <h1>Hello</h1>
+      <main className="min-h-screen bg-zinc-950 text-white flex flex-col items-center justify-center py-10 px-4">
+        <AccordPage />
       </main>
   );
 }
