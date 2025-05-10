@@ -4,7 +4,7 @@ import React from 'react'
 function ChaiPage() {
   return (
     <main className='h-full flex-col flex justify-center items-center border-2'>
-        <div>Chai Page 😀 12
+        <div>Chai Page 😀 123
         </div>
         <Button variant='chai' size='sm'>ShadCN button</Button>
     </main>
